@@ -15,9 +15,26 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+// service entry point
+-(void)uploadFromPasteboard:(NSPasteboard *)pboard userData:(NSString *)udata error:(NSString **)err
+{
+    NSString *filename = [pboard stringForType:NSURLPboardType];
+    NSSound *s = [NSSound soundNamed:@"Pop"];
+    s.delegate = self;
+    [s play];
+    NSLog(@"file: %@", filename);
+    //
 }
+
+- (void)applicationDidFinishLaunching:(NSNotification *)notification {
+    [NSApp setServicesProvider:self];
+}
+
+- (void)sound:(NSSound *)sound didFinishPlaying:(BOOL)aBool {
+    [NSApp terminate:nil];
+}
+
+
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application

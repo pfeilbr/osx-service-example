@@ -35,6 +35,7 @@
 		C56C466B1A61909200F0393F /* MacTestApp03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTestApp03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56C46701A61909200F0393F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C56C46711A61909200F0393F /* MacTestApp03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacTestApp03Tests.m; sourceTree = "<group>"; };
+		C56C467B1A6196E500F0393F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		C56C464F1A61909200F0393F = {
 			isa = PBXGroup;
 			children = (
+				C56C467B1A6196E500F0393F /* README.md */,
 				C56C465A1A61909200F0393F /* MacTestApp03 */,
 				C56C466E1A61909200F0393F /* MacTestApp03Tests */,
 				C56C46591A61909200F0393F /* Products */,
