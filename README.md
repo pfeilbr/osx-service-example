@@ -17,3 +17,7 @@ Open TextEdit.  Highlight text.  Visit `TextEdit | Services | My Test Service 02
 ### Technical Details
 
 Refer to Info.plist [NSServices](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/SysServices/Articles/properties.html) key
+
+### Notes
+
+There are two ways to implement a service.  This example as a .app and also as a standalone `.service` bundle.  Please see [Writing a .service bundle](http://www.notesfromandy.com/2013/04/05/writing-a-service-bundle) post for details on a `.service` bundle.
