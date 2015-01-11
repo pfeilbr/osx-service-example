@@ -16,4 +16,4 @@ Open TextEdit.  Highlight text.  Visit `TextEdit | Services | My Test Service 02
 
 ### Technical Details
 
-Refer to Info.plist NSServices key
+Refer to Info.plist [NSServices](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/SysServices/Articles/properties.html) key
